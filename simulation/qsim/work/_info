@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\University\Subjects\EE 177\4bitRCAdder\simulation\qsim
+vfourbitRCAdder
+Z1 !s100 E9k`e1m5HNG7[fNNl5NQT2
+Z2 If6Sd9aEV0<92MSh1J]f3G3
+Z3 VRIok9ndVZ9G2A:B7b09:z1
+Z4 dD:\University\Subjects\EE 177\4bitRCAdder\simulation\qsim
+Z5 w1421759144
+Z6 84bitRCAdder.vo
+Z7 F4bitRCAdder.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|4bitRCAdder.vo|
+Z10 o-work work -O0
+Z11 nfourbit@r@c@adder
+!i10b 1
+!s85 0
+Z12 !s108 1421759147.341000
+Z13 !s107 4bitRCAdder.vo|
+!s101 -O0
+vfourbitRCAdder_vlg_check_tst
+!i10b 1
+Z14 !s100 2AWM6BBl9dJ^JlHS3m0Om0
+Z15 IiJIH8X3cfcOjJdj7NWc`c2
+Z16 VgN<hL::kEhTobg6U[z6MW2
+R4
+Z17 w1421759140
+Z18 84bitRCAdder.vt
+Z19 F4bitRCAdder.vt
+L0 59
+R8
+r1
+!s85 0
+31
+Z20 !s108 1421759147.635000
+Z21 !s107 4bitRCAdder.vt|
+Z22 !s90 -work|work|4bitRCAdder.vt|
+!s101 -O0
+R10
+Z23 nfourbit@r@c@adder_vlg_check_tst
+vfourbitRCAdder_vlg_sample_tst
+!i10b 1
+Z24 !s100 ;7a]h;IH7OW:<Am2nAVfC0
+Z25 I0?<>m=jfOH[YY6coTSJUc2
+Z26 V1QS4:QzFZod3_<5Q2A_0[0
+R4
+R17
+R18
+R19
+L0 29
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z27 nfourbit@r@c@adder_vlg_sample_tst
+vfourbitRCAdder_vlg_vec_tst
+!i10b 1
+!s100 AcVnGB3V7gUkR<=KUI<2k0
+IM5;jk0G4;[zAPTU6zP50O3
+Z28 VMMPFNm3h]gMSFM=jX3ioE1
+R4
+R17
+R18
+R19
+Z29 L0 234
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z30 nfourbit@r@c@adder_vlg_vec_tst

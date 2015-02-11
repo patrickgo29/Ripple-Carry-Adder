@@ -1,0 +1,60 @@
+|fourbitRCAdder
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+sum[0] <= full_adder:Fadder1.S
+sum[1] <= full_adder:Fadder2.S
+sum[2] <= full_adder:Fadder3.S
+sum[3] <= full_adder:Fadder4.S
+carry <= full_adder:Fadder4.CY
+
+
+|fourbitRCAdder|full_adder:Fadder1
+A => w1.IN0
+A => w3.IN0
+B => w1.IN1
+B => w3.IN1
+C => w2.IN1
+C => comb.IN1
+S <= comb.DB_MAX_OUTPUT_PORT_TYPE
+CY <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|fourbitRCAdder|full_adder:Fadder2
+A => w1.IN0
+A => w3.IN0
+B => w1.IN1
+B => w3.IN1
+C => w2.IN1
+C => comb.IN1
+S <= comb.DB_MAX_OUTPUT_PORT_TYPE
+CY <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|fourbitRCAdder|full_adder:Fadder3
+A => w1.IN0
+A => w3.IN0
+B => w1.IN1
+B => w3.IN1
+C => w2.IN1
+C => comb.IN1
+S <= comb.DB_MAX_OUTPUT_PORT_TYPE
+CY <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|fourbitRCAdder|full_adder:Fadder4
+A => w1.IN0
+A => w3.IN0
+B => w1.IN1
+B => w3.IN1
+C => w2.IN1
+C => comb.IN1
+S <= comb.DB_MAX_OUTPUT_PORT_TYPE
+CY <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
